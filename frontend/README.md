@@ -1,0 +1,1 @@
+Frontend for BookStore written in React.
