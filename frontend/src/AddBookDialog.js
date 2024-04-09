@@ -1,6 +1,5 @@
 import * as React from 'react';
 import Button from '@material-ui/core/Button';
-import TextField from '@material-ui/core/TextField';
 import Dialog from '@material-ui/core/Dialog';
 import DialogActions from '@material-ui/core/DialogActions';
 import DialogContent from '@material-ui/core/DialogContent';
@@ -11,7 +10,7 @@ import BookTextField from './BookTextField';
 
 
 const DIALOG_NAME = "Add Book"
-const DIALOG_HEADER = " To add a new book, please enter the book's title, description (optional), author name and publication Date.";
+const DIALOG_HEADER = "To add a new book, please enter the book's title, description (optional), author name and publication Date.";
 const AddBookDialog = ({open, handleClose, bookDispatch}) => {
     return (
         <>

@@ -19,7 +19,7 @@ import {
 } from "@material-ui/core";
 import MenuIcon from "@material-ui/icons/Menu";
 import BookDetails from './BookDetails'
-import ErrorPage from "./error-page";
+import ErrorPage from "./ErrorPage";
 import Books from "./Books";
 
 const TITLE = "Book Store";

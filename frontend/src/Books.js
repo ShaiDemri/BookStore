@@ -9,7 +9,6 @@ import ProgressCircle from './ProgressCircle';
 import {useFetchBooks} from "./hooks";
 import BookCard from "./BookCard";
 import {bookReducer} from './reducers/bookReducer';
-import defaultImage from './assets/img.png';
 import AddBookDialog from './AddBookDialog';
 
 const useStyles = makeStyles({

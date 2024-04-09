@@ -6,7 +6,7 @@ import {Link as RouterLink} from 'react-router-dom';
 
 const BookDetails = () => {
     const location = useLocation();
-    const {title, author, date, description} = location.state;
+    const {title, author, description} = location.state;
     return (
         <Container maxWidth="lg">
             <RouterLink to={'/'}><Button>Go Back</Button></RouterLink>
